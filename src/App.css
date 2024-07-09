@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 .HeaderCont{
     height: 120px;
     display: flex;
@@ -7,9 +10,9 @@
 }
 nav{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     position: relative;
-    top: 120px;
+    top: 40px;
     text-transform: uppercase;
 }
 .text{
@@ -20,24 +23,23 @@ nav{
 .text h2{
     font-size: 64px;
     text-transform: uppercase;
-    line-height: 96px;
+    line-height: 90px;
 }
 .HeaderCont div h4{
-font-size: 36px;
-font-weight: 500;
-line-height: 54px;
-text-align: left;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    text-align: left;
 
 }
 .HeaderCont div h5{
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
-    text-align: left;
-    
+    text-align: left; 
 }
 .text h4{
-font-size: 34.9px;
+font-size: 25px;
 font-weight: 400;
 line-height: 52.34px;
 text-align: left;
@@ -45,7 +47,7 @@ text-align: left;
 
 .BannerCont{
     background-color: #F1F1F1;
-    height: 1050px;
+    height: auto;
     position: relative;
     top: -120px;
     z-index: -1;
@@ -53,10 +55,10 @@ text-align: left;
 }
 .logo{
     position: relative;
-    top: 100px;
+    /* top: 100px; */
 }
 .btn{
-    width: 200px ;
+width: 200px ;
 height: 60px;
 gap: 17px;
 border-radius: 50px;
@@ -65,4 +67,161 @@ font-size: 15px;
 background-color: #ffffff;
 text-transform: uppercase;
 border: none;
+font-weight: 550;
 }
+.Collection{
+    height: 1000px;
+    /* width: 100vw; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 0 25px;
+
+}
+.flex{
+    display: flex;
+    gap: 20px;
+}
+.grid {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.mainImg{
+    height: 663px;
+    width: 500px;
+    background: #F1F1F1;
+
+}
+.Img_1{
+    height: 300px;
+    width: 280px;
+    background-color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+}
+.Img_1 h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.img_t{
+    margin-top: 50px;
+}
+
+.img_M{
+    padding: 150px 20px;
+    text-transform: uppercase;
+}
+.img_M button{
+    width: 112px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background: #0E69CD;
+    text-transform: uppercase;
+}
+.img_t button{
+    width: 125px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #C1FFDF;
+    text-transform: uppercase;
+}
+.Img_2{
+height: 300px;
+width: 280px;
+background: #F1F1F1;
+}
+.cardCont{
+    text-align: center;
+    margin: 50px 0;
+}
+.cardCont h4{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 5px;
+    text-transform: uppercase;
+}
+.cardCont h6{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: -40px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+}
+.mainCards{
+    position: relative;
+    top: -40px;
+    text-transform: capitalize;
+    gap: 1px;
+}
+.mainCards button{
+    Width:  137px;
+    Height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #E0E0E4;    ;
+    text-transform: uppercase;
+}
+.mainCards button:hover{
+    cursor: pointer;
+    color: #F1F1F1;
+}
+.LatestC{
+    background-color: #F1F1F1;
+    height: auto;
+    position: relative;
+    top: 1050px;
+    z-index: 2;
+}
+
+.LatestC img{
+    height: 450px;
+    width: 750px;
+    padding: 54px 0 0px 25px;
+}
+.LatestCard{
+    display: flex;
+}
+
+.latestText{
+    background-color: white;
+    height: 290px;
+    width: 320px;
+    padding: 0 40px;
+    position: relative;
+    right: 80px;
+    top: 140px;
+}
+.latestText h3{
+    text-transform: uppercase;
+}
+.latestText button{
+    Width:  137px;
+    Height: 40px;
+    border-radius: 20px;
+    color: #F1F1F1;
+    border: none;
+    background: #E3CEBE;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.latestText button:hover{
+    cursor: pointer;
+    color: #151313;
+    
+}
+

@@ -12,7 +12,7 @@ export const Header = () => {
       <nav>
         <Link to={'/product'} style={{textDecoration: 'none',color: 'black'}}>Product</Link>
         <Link to={'/pages'}  style={{textDecoration: 'none',color: 'black'}}> Pages</Link>
-        <Link to={'/MyAccount'}  style={{textDecoration: 'none',color: 'black',}}>MyAccount</Link>
+        <Link to={'/MyAccount'}  style={{textDecoration: 'none',color: 'black',}}>My Account</Link>
       </nav>
     </div>
     </div>
