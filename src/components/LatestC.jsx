@@ -50,6 +50,12 @@ export const LatestC = () => {
             </div>
         </div>
 
+        <div>
+            <button style={{display: 'block', margin: ' auto', height: '40px', width: '160px', Gap: '8px', background: 'black', 
+                            color: 'white', borderRadius: '20px',  textTransform: 'upperCase'}}>Read All Posts</button>
+            
+        </div>
+
     </div>
   )
 }
